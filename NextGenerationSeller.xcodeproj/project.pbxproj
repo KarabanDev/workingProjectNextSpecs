@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123A4EB81B37F68000806C99 /* NSString+NGCheckStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 123A4EB71B37F68000806C99 /* NSString+NGCheckStrings.m */; };
+		123A4EBB1B380FEC00806C99 /* NGCartInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123A4EBA1B380FEC00806C99 /* NGCartInfoController.m */; };
+		124D8E041BE24F4D00198D8D /* AnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124D8E031BE24F4D00198D8D /* AnimView.m */; };
+		125AB70B1BE0EC9F00BD68AF /* Localizible.strings in Resources */ = {isa = PBXBuildFile; fileRef = 125AB70D1BE0EC9F00BD68AF /* Localizible.strings */; };
+		12774EAE1BDE55C100E26C86 /* NGStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12774EAD1BDE55C100E26C86 /* NGStartViewController.m */; };
+		12774EB11BDE647200E26C86 /* NGHowItWorksScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12774EB01BDE647200E26C86 /* NGHowItWorksScreenController.m */; };
+		12774EB41BDFA04500E26C86 /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 12774EB31BDFA04500E26C86 /* UIView+Effects.m */; };
+		128B671F1B53AADF0072932A /* NGPaymentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128B671E1B53AADF0072932A /* NGPaymentController.m */; };
+		128B67221B53AC960072932A /* NGFinalOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128B67211B53AC960072932A /* NGFinalOrderController.m */; };
+		128B67281B53F2D90072932A /* RTPDFGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 128B67251B53F2D90072932A /* RTPDFGenerator.m */; };
+		128B67291B53F2D90072932A /* RTTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 128B67271B53F2D90072932A /* RTTemplate.m */; };
+		128B672B1B53F2EC0072932A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 128B672A1B53F2EC0072932A /* index.html */; };
+		128C14C51B25B27D00EBA386 /* NGSQLiteDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 128C14C41B25B27D00EBA386 /* NGSQLiteDataBaseManager.m */; };
+		128C14C71B25B69200EBA386 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 128C14C61B25B69200EBA386 /* libsqlite3.dylib */; };
+		12D246611B26D91700276AE7 /* NGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D246601B26D91700276AE7 /* NGFrame.m */; };
+		12D78F171B30252C00A8F122 /* NGBrendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D78F161B30252C00A8F122 /* NGBrendCell.m */; };
+		12D78F1D1B302D7600A8F122 /* UIImage+NGUIResizedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D78F1C1B302D7600A8F122 /* UIImage+NGUIResizedImage.m */; };
+		12D78F211B304B4100A8F122 /* NGInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D78F201B304B4100A8F122 /* NGInfoViewController.m */; };
+		12D78F241B3056DD00A8F122 /* NGPrescriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D78F231B3056DD00A8F122 /* NGPrescriptionController.m */; };
+		12E233DD1B41307F000BC75B /* NGPreorderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E233DC1B41307F000BC75B /* NGPreorderCell.m */; };
+		12E233E01B4130A3000BC75B /* NGItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E233DF1B4130A3000BC75B /* NGItem.m */; };
+		12E233E31B4132F0000BC75B /* NGCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E233E21B4132F0000BC75B /* NGCart.m */; };
+		12E287591B34487F007339A5 /* NGDoctorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E287581B34487F007339A5 /* NGDoctorInfo.m */; };
+		12EA7E7D1B4D602C00C6CC58 /* mailBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12EA7E7C1B4D602C00C6CC58 /* mailBtn.png */; };
+		12EA7E7F1B4D604200C6CC58 /* circleArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 12EA7E7E1B4D604200C6CC58 /* circleArrow.png */; };
+		12EA7E811B4D65BA00C6CC58 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 12EA7E801B4D65BA00C6CC58 /* splash.png */; };
+		12ECBC1A1B4ADE3F00378CA3 /* framesInfo.sql in Resources */ = {isa = PBXBuildFile; fileRef = 12ECBC191B4ADE3F00378CA3 /* framesInfo.sql */; };
+		12EE76411BE9E3960029D4CA /* nextGenDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12EE763F1BE9E3960029D4CA /* nextGenDataModel.xcdatamodeld */; };
+		12F3F36E1B4426190046460F /* framesImg0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F3F3681B4426190046460F /* framesImg0.jpg */; };
+		12F3F36F1B4426190046460F /* framesImg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F3F3691B4426190046460F /* framesImg1.jpg */; };
+		12F3F3701B4426190046460F /* framesImg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F3F36A1B4426190046460F /* framesImg2.jpg */; };
+		12F3F3711B4426190046460F /* framesImg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F3F36B1B4426190046460F /* framesImg3.jpg */; };
+		12F3F3721B4426190046460F /* framesImg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F3F36C1B4426190046460F /* framesImg4.jpg */; };
+		12F5D0311B2977050046626D /* NGChooseFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5D0301B2977050046626D /* NGChooseFrameController.m */; };
+		12F5D0341B298DC80046626D /* NGFramePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5D0331B298DC80046626D /* NGFramePresentationController.m */; };
+		12FD26BC1B1F1B74009943EC /* NGPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FD26BB1B1F1B74009943EC /* NGPhotoCell.m */; };
+		420BF3101B26F25900DFFC81 /* DropboxAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 420BF30F1B26F25900DFFC81 /* DropboxAPI.m */; };
+		420DB6451B3ADDAD002C62A4 /* NGChooseLensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DB6441B3ADDAD002C62A4 /* NGChooseLensesViewController.m */; };
+		420DB6481B3AF4AA002C62A4 /* NGChooseTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DB6471B3AF4AA002C62A4 /* NGChooseTypeViewController.m */; };
+		4230EACE1B3BE49F0071BC56 /* NGChooseOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4230EACD1B3BE49F0071BC56 /* NGChooseOptionsViewController.m */; };
+		4230EAD71B3C425E0071BC56 /* NGGlassesTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4230EAD61B3C425E0071BC56 /* NGGlassesTypeViewController.m */; };
+		4230EADA1B3C427E0071BC56 /* NGGlassesOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4230EAD91B3C427E0071BC56 /* NGGlassesOptionsViewController.m */; };
+		B30136AC1B1DF87E0058ABC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B30136AB1B1DF87E0058ABC4 /* main.m */; };
+		B30136AF1B1DF87E0058ABC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B30136AE1B1DF87E0058ABC4 /* AppDelegate.m */; };
+		B30136B21B1DF87E0058ABC4 /* NGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B30136B11B1DF87E0058ABC4 /* NGMainViewController.m */; };
+		B30136B51B1DF87E0058ABC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30136B31B1DF87E0058ABC4 /* Main.storyboard */; };
+		B30136B71B1DF87E0058ABC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30136B61B1DF87E0058ABC4 /* Images.xcassets */; };
+		B30136BA1B1DF87E0058ABC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B30136B81B1DF87E0058ABC4 /* LaunchScreen.xib */; };
+		B30136C61B1DF87E0058ABC4 /* NGKioskAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30136C51B1DF87E0058ABC4 /* NGKioskAppTests.m */; };
+		B30136D41B1DF9B40058ABC4 /* NGDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B30136D31B1DF9B40058ABC4 /* NGDataManager.m */; };
+		B36063CE1B1E0F400092F84A /* NGFrameSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36063CD1B1E0F400092F84A /* NGFrameSelectController.m */; };
+		B36063D21B1E11080092F84A /* NGCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = B36063D11B1E11080092F84A /* NGCustomer.m */; };
+		B3904C2B1B1E1D5200582412 /* NGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3904C2A1B1E1D5200582412 /* NGNavigationController.m */; };
+		B3904C2E1B1E1E8B00582412 /* NGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B3904C2D1B1E1E8B00582412 /* NGCamera.m */; };
+		B3904C301B1E23E700582412 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3904C2F1B1E23E700582412 /* Security.framework */; };
+		B3904C321B1E23ED00582412 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3904C311B1E23ED00582412 /* QuartzCore.framework */; };
+		B3904C351B1E242C00582412 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3904C341B1E242C00582412 /* DropboxSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B30136C01B1DF87E0058ABC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B301369E1B1DF87E0058ABC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30136A51B1DF87E0058ABC4;
+			remoteInfo = NGKioskApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123A4EB61B37F68000806C99 /* NSString+NGCheckStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGCheckStrings.h"; sourceTree = "<group>"; };
+		123A4EB71B37F68000806C99 /* NSString+NGCheckStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGCheckStrings.m"; sourceTree = "<group>"; };
+		123A4EB91B380FEC00806C99 /* NGCartInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCartInfoController.h; sourceTree = "<group>"; };
+		123A4EBA1B380FEC00806C99 /* NGCartInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCartInfoController.m; sourceTree = "<group>"; };
+		124D8E021BE24F4D00198D8D /* AnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimView.h; sourceTree = "<group>"; };
+		124D8E031BE24F4D00198D8D /* AnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimView.m; sourceTree = "<group>"; };
+		125AB70C1BE0EC9F00BD68AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizible.strings; sourceTree = "<group>"; };
+		125AB70E1BE0ECA300BD68AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizible.strings; sourceTree = "<group>"; };
+		12774EAC1BDE55C100E26C86 /* NGStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGStartViewController.h; sourceTree = "<group>"; };
+		12774EAD1BDE55C100E26C86 /* NGStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGStartViewController.m; sourceTree = "<group>"; };
+		12774EAF1BDE647200E26C86 /* NGHowItWorksScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGHowItWorksScreenController.h; sourceTree = "<group>"; };
+		12774EB01BDE647200E26C86 /* NGHowItWorksScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGHowItWorksScreenController.m; sourceTree = "<group>"; };
+		12774EB21BDFA04500E26C86 /* UIView+Effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effects.h"; sourceTree = "<group>"; };
+		12774EB31BDFA04500E26C86 /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effects.m"; sourceTree = "<group>"; };
+		128B671D1B53AADF0072932A /* NGPaymentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPaymentController.h; sourceTree = "<group>"; };
+		128B671E1B53AADF0072932A /* NGPaymentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPaymentController.m; sourceTree = "<group>"; };
+		128B67201B53AC960072932A /* NGFinalOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFinalOrderController.h; sourceTree = "<group>"; };
+		128B67211B53AC960072932A /* NGFinalOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFinalOrderController.m; sourceTree = "<group>"; };
+		128B67241B53F2D90072932A /* RTPDFGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPDFGenerator.h; sourceTree = "<group>"; };
+		128B67251B53F2D90072932A /* RTPDFGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPDFGenerator.m; sourceTree = "<group>"; };
+		128B67261B53F2D90072932A /* RTTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTemplate.h; sourceTree = "<group>"; };
+		128B67271B53F2D90072932A /* RTTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTemplate.m; sourceTree = "<group>"; };
+		128B672A1B53F2EC0072932A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		128C14C31B25B27D00EBA386 /* NGSQLiteDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSQLiteDataBaseManager.h; sourceTree = "<group>"; };
+		128C14C41B25B27D00EBA386 /* NGSQLiteDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSQLiteDataBaseManager.m; sourceTree = "<group>"; };
+		128C14C61B25B69200EBA386 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		12D2465F1B26D91700276AE7 /* NGFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFrame.h; sourceTree = "<group>"; };
+		12D246601B26D91700276AE7 /* NGFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFrame.m; sourceTree = "<group>"; };
+		12D78F151B30252C00A8F122 /* NGBrendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGBrendCell.h; path = NGKioskApp/NGBrendCell.h; sourceTree = "<group>"; };
+		12D78F161B30252C00A8F122 /* NGBrendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGBrendCell.m; path = NGKioskApp/NGBrendCell.m; sourceTree = "<group>"; };
+		12D78F1B1B302D7600A8F122 /* UIImage+NGUIResizedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NGUIResizedImage.h"; sourceTree = "<group>"; };
+		12D78F1C1B302D7600A8F122 /* UIImage+NGUIResizedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NGUIResizedImage.m"; sourceTree = "<group>"; };
+		12D78F1F1B304B4100A8F122 /* NGInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGInfoViewController.h; sourceTree = "<group>"; };
+		12D78F201B304B4100A8F122 /* NGInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGInfoViewController.m; sourceTree = "<group>"; };
+		12D78F221B3056DD00A8F122 /* NGPrescriptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPrescriptionController.h; sourceTree = "<group>"; };
+		12D78F231B3056DD00A8F122 /* NGPrescriptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPrescriptionController.m; sourceTree = "<group>"; };
+		12E233DB1B41307F000BC75B /* NGPreorderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGPreorderCell.h; sourceTree = "<group>"; };
+		12E233DC1B41307F000BC75B /* NGPreorderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGPreorderCell.m; sourceTree = "<group>"; };
+		12E233DE1B4130A3000BC75B /* NGItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGItem.h; sourceTree = "<group>"; };
+		12E233DF1B4130A3000BC75B /* NGItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGItem.m; sourceTree = "<group>"; };
+		12E233E11B4132F0000BC75B /* NGCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCart.h; sourceTree = "<group>"; };
+		12E233E21B4132F0000BC75B /* NGCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCart.m; sourceTree = "<group>"; };
+		12E287571B34487F007339A5 /* NGDoctorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDoctorInfo.h; sourceTree = "<group>"; };
+		12E287581B34487F007339A5 /* NGDoctorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDoctorInfo.m; sourceTree = "<group>"; };
+		12EA7E7C1B4D602C00C6CC58 /* mailBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailBtn.png; sourceTree = "<group>"; };
+		12EA7E7E1B4D604200C6CC58 /* circleArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleArrow.png; sourceTree = "<group>"; };
+		12EA7E801B4D65BA00C6CC58 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		12ECBC191B4ADE3F00378CA3 /* framesInfo.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = framesInfo.sql; sourceTree = "<group>"; };
+		12EE76401BE9E3960029D4CA /* nextGenDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nextGenDataModel.xcdatamodel; sourceTree = "<group>"; };
+		12F3F3681B4426190046460F /* framesImg0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = framesImg0.jpg; sourceTree = "<group>"; };
+		12F3F3691B4426190046460F /* framesImg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = framesImg1.jpg; sourceTree = "<group>"; };
+		12F3F36A1B4426190046460F /* framesImg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = framesImg2.jpg; sourceTree = "<group>"; };
+		12F3F36B1B4426190046460F /* framesImg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = framesImg3.jpg; sourceTree = "<group>"; };
+		12F3F36C1B4426190046460F /* framesImg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = framesImg4.jpg; sourceTree = "<group>"; };
+		12F5D02F1B2977050046626D /* NGChooseFrameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGChooseFrameController.h; sourceTree = "<group>"; };
+		12F5D0301B2977050046626D /* NGChooseFrameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGChooseFrameController.m; sourceTree = "<group>"; };
+		12F5D0321B298DC80046626D /* NGFramePresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFramePresentationController.h; sourceTree = "<group>"; };
+		12F5D0331B298DC80046626D /* NGFramePresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFramePresentationController.m; sourceTree = "<group>"; };
+		12FD26BA1B1F1B74009943EC /* NGPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGPhotoCell.h; path = NGKioskApp/NGPhotoCell.h; sourceTree = "<group>"; };
+		12FD26BB1B1F1B74009943EC /* NGPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGPhotoCell.m; path = NGKioskApp/NGPhotoCell.m; sourceTree = "<group>"; };
+		420BF30E1B26F25900DFFC81 /* DropboxAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxAPI.h; sourceTree = "<group>"; };
+		420BF30F1B26F25900DFFC81 /* DropboxAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxAPI.m; sourceTree = "<group>"; };
+		420DB6431B3ADDAD002C62A4 /* NGChooseLensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGChooseLensesViewController.h; sourceTree = "<group>"; };
+		420DB6441B3ADDAD002C62A4 /* NGChooseLensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGChooseLensesViewController.m; sourceTree = "<group>"; };
+		420DB6461B3AF4AA002C62A4 /* NGChooseTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGChooseTypeViewController.h; sourceTree = "<group>"; };
+		420DB6471B3AF4AA002C62A4 /* NGChooseTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGChooseTypeViewController.m; sourceTree = "<group>"; };
+		4230EACC1B3BE49F0071BC56 /* NGChooseOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGChooseOptionsViewController.h; sourceTree = "<group>"; };
+		4230EACD1B3BE49F0071BC56 /* NGChooseOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGChooseOptionsViewController.m; sourceTree = "<group>"; };
+		4230EAD51B3C425E0071BC56 /* NGGlassesTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGGlassesTypeViewController.h; sourceTree = "<group>"; };
+		4230EAD61B3C425E0071BC56 /* NGGlassesTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGGlassesTypeViewController.m; sourceTree = "<group>"; };
+		4230EAD81B3C427E0071BC56 /* NGGlassesOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGGlassesOptionsViewController.h; sourceTree = "<group>"; };
+		4230EAD91B3C427E0071BC56 /* NGGlassesOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGGlassesOptionsViewController.m; sourceTree = "<group>"; };
+		B30136A61B1DF87E0058ABC4 /* NextGenerationSeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextGenerationSeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30136AA1B1DF87E0058ABC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30136AB1B1DF87E0058ABC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B30136AD1B1DF87E0058ABC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B30136AE1B1DF87E0058ABC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B30136B01B1DF87E0058ABC4 /* NGMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGMainViewController.h; sourceTree = "<group>"; };
+		B30136B11B1DF87E0058ABC4 /* NGMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGMainViewController.m; sourceTree = "<group>"; };
+		B30136B41B1DF87E0058ABC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B30136B61B1DF87E0058ABC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B30136B91B1DF87E0058ABC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B30136BF1B1DF87E0058ABC4 /* NextGenerationSeller.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextGenerationSeller.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30136C41B1DF87E0058ABC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30136C51B1DF87E0058ABC4 /* NGKioskAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGKioskAppTests.m; sourceTree = "<group>"; };
+		B30136D21B1DF9B40058ABC4 /* NGDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGDataManager.h; sourceTree = "<group>"; };
+		B30136D31B1DF9B40058ABC4 /* NGDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGDataManager.m; sourceTree = "<group>"; };
+		B36063CC1B1E0F400092F84A /* NGFrameSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGFrameSelectController.h; sourceTree = "<group>"; };
+		B36063CD1B1E0F400092F84A /* NGFrameSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGFrameSelectController.m; sourceTree = "<group>"; };
+		B36063D01B1E11080092F84A /* NGCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCustomer.h; sourceTree = "<group>"; };
+		B36063D11B1E11080092F84A /* NGCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCustomer.m; sourceTree = "<group>"; };
+		B3904C291B1E1D5200582412 /* NGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGNavigationController.h; sourceTree = "<group>"; };
+		B3904C2A1B1E1D5200582412 /* NGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGNavigationController.m; sourceTree = "<group>"; };
+		B3904C2C1B1E1E8B00582412 /* NGCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCamera.h; sourceTree = "<group>"; };
+		B3904C2D1B1E1E8B00582412 /* NGCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCamera.m; sourceTree = "<group>"; };
+		B3904C2F1B1E23E700582412 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B3904C311B1E23ED00582412 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B3904C341B1E242C00582412 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30136A31B1DF87E0058ABC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128C14C71B25B69200EBA386 /* libsqlite3.dylib in Frameworks */,
+				B3904C351B1E242C00582412 /* DropboxSDK.framework in Frameworks */,
+				B3904C321B1E23ED00582412 /* QuartzCore.framework in Frameworks */,
+				B3904C301B1E23E700582412 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30136BC1B1DF87E0058ABC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123A4EBC1B38251900806C99 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				124D8E021BE24F4D00198D8D /* AnimView.h */,
+				124D8E031BE24F4D00198D8D /* AnimView.m */,
+			);
+			name = CustomUI;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		128B67231B53F2C00072932A /* PDFCreater */ = {
+			isa = PBXGroup;
+			children = (
+				128B672A1B53F2EC0072932A /* index.html */,
+				128B67241B53F2D90072932A /* RTPDFGenerator.h */,
+				128B67251B53F2D90072932A /* RTPDFGenerator.m */,
+				128B67261B53F2D90072932A /* RTTemplate.h */,
+				128B67271B53F2D90072932A /* RTTemplate.m */,
+			);
+			name = PDFCreater;
+			sourceTree = "<group>";
+		};
+		12D78F1E1B30326700A8F122 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				12774EB21BDFA04500E26C86 /* UIView+Effects.h */,
+				12774EB31BDFA04500E26C86 /* UIView+Effects.m */,
+				12D78F1B1B302D7600A8F122 /* UIImage+NGUIResizedImage.h */,
+				12D78F1C1B302D7600A8F122 /* UIImage+NGUIResizedImage.m */,
+				123A4EB61B37F68000806C99 /* NSString+NGCheckStrings.h */,
+				123A4EB71B37F68000806C99 /* NSString+NGCheckStrings.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		12EA7E7B1B4D5FA600C6CC58 /* temporaryUIResources */ = {
+			isa = PBXGroup;
+			children = (
+				12EA7E801B4D65BA00C6CC58 /* splash.png */,
+				12EA7E7C1B4D602C00C6CC58 /* mailBtn.png */,
+				12EA7E7E1B4D604200C6CC58 /* circleArrow.png */,
+			);
+			name = temporaryUIResources;
+			sourceTree = "<group>";
+		};
+		12F3F3671B4425FC0046460F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12ECBC191B4ADE3F00378CA3 /* framesInfo.sql */,
+				12F3F3681B4426190046460F /* framesImg0.jpg */,
+				12F3F3691B4426190046460F /* framesImg1.jpg */,
+				12F3F36A1B4426190046460F /* framesImg2.jpg */,
+				12F3F36B1B4426190046460F /* framesImg3.jpg */,
+				12F3F36C1B4426190046460F /* framesImg4.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		12FB12451B316D3B00EF5857 /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				12E233DB1B41307F000BC75B /* NGPreorderCell.h */,
+				12E233DC1B41307F000BC75B /* NGPreorderCell.m */,
+				12FD26BA1B1F1B74009943EC /* NGPhotoCell.h */,
+				12FD26BB1B1F1B74009943EC /* NGPhotoCell.m */,
+				12D78F151B30252C00A8F122 /* NGBrendCell.h */,
+				12D78F161B30252C00A8F122 /* NGBrendCell.m */,
+			);
+			name = CellViews;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4230EACB1B3BE2D20071BC56 /* Sunglasses */ = {
+			isa = PBXGroup;
+			children = (
+				420DB6431B3ADDAD002C62A4 /* NGChooseLensesViewController.h */,
+				420DB6441B3ADDAD002C62A4 /* NGChooseLensesViewController.m */,
+				420DB6461B3AF4AA002C62A4 /* NGChooseTypeViewController.h */,
+				420DB6471B3AF4AA002C62A4 /* NGChooseTypeViewController.m */,
+				4230EACC1B3BE49F0071BC56 /* NGChooseOptionsViewController.h */,
+				4230EACD1B3BE49F0071BC56 /* NGChooseOptionsViewController.m */,
+			);
+			name = Sunglasses;
+			sourceTree = "<group>";
+		};
+		4230EAD31B3C42040071BC56 /* Glasses */ = {
+			isa = PBXGroup;
+			children = (
+				4230EAD51B3C425E0071BC56 /* NGGlassesTypeViewController.h */,
+				4230EAD61B3C425E0071BC56 /* NGGlassesTypeViewController.m */,
+				4230EAD81B3C427E0071BC56 /* NGGlassesOptionsViewController.h */,
+				4230EAD91B3C427E0071BC56 /* NGGlassesOptionsViewController.m */,
+			);
+			name = Glasses;
+			sourceTree = "<group>";
+		};
+		B301369D1B1DF87E0058ABC4 = {
+			isa = PBXGroup;
+			children = (
+				B30136A81B1DF87E0058ABC4 /* NGKioskApp */,
+				B30136C21B1DF87E0058ABC4 /* NGKioskAppTests */,
+				B30136A71B1DF87E0058ABC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30136A71B1DF87E0058ABC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30136A61B1DF87E0058ABC4 /* NextGenerationSeller.app */,
+				B30136BF1B1DF87E0058ABC4 /* NextGenerationSeller.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30136A81B1DF87E0058ABC4 /* NGKioskApp */ = {
+			isa = PBXGroup;
+			children = (
+				12EA7E7B1B4D5FA600C6CC58 /* temporaryUIResources */,
+				12F3F3671B4425FC0046460F /* Resources */,
+				12FB12451B316D3B00EF5857 /* CellViews */,
+				123A4EBC1B38251900806C99 /* CustomUI */,
+				B30136AD1B1DF87E0058ABC4 /* AppDelegate.h */,
+				B30136AE1B1DF87E0058ABC4 /* AppDelegate.m */,
+				12D78F1E1B30326700A8F122 /* Categories */,
+				B36063CF1B1E10EE0092F84A /* Model */,
+				B30136D11B1DF9870058ABC4 /* Classes */,
+				B30136CF1B1DF8D40058ABC4 /* Controllers */,
+				B30136D01B1DF9430058ABC4 /* Views */,
+				B30136B61B1DF87E0058ABC4 /* Images.xcassets */,
+				B3904C331B1E23F100582412 /* Frameworks */,
+				B30136A91B1DF87E0058ABC4 /* Supporting Files */,
+			);
+			path = NGKioskApp;
+			sourceTree = "<group>";
+		};
+		B30136A91B1DF87E0058ABC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12EE763F1BE9E3960029D4CA /* nextGenDataModel.xcdatamodeld */,
+				B30136AA1B1DF87E0058ABC4 /* Info.plist */,
+				B30136AB1B1DF87E0058ABC4 /* main.m */,
+				125AB70D1BE0EC9F00BD68AF /* Localizible.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B30136C21B1DF87E0058ABC4 /* NGKioskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B30136C51B1DF87E0058ABC4 /* NGKioskAppTests.m */,
+				B30136C31B1DF87E0058ABC4 /* Supporting Files */,
+			);
+			path = NGKioskAppTests;
+			sourceTree = "<group>";
+		};
+		B30136C31B1DF87E0058ABC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B30136C41B1DF87E0058ABC4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B30136CF1B1DF8D40058ABC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12774EAF1BDE647200E26C86 /* NGHowItWorksScreenController.h */,
+				12774EB01BDE647200E26C86 /* NGHowItWorksScreenController.m */,
+				12774EAC1BDE55C100E26C86 /* NGStartViewController.h */,
+				12774EAD1BDE55C100E26C86 /* NGStartViewController.m */,
+				B3904C291B1E1D5200582412 /* NGNavigationController.h */,
+				B3904C2A1B1E1D5200582412 /* NGNavigationController.m */,
+				B30136B01B1DF87E0058ABC4 /* NGMainViewController.h */,
+				B30136B11B1DF87E0058ABC4 /* NGMainViewController.m */,
+				128B67201B53AC960072932A /* NGFinalOrderController.h */,
+				128B67211B53AC960072932A /* NGFinalOrderController.m */,
+				128B671D1B53AADF0072932A /* NGPaymentController.h */,
+				128B671E1B53AADF0072932A /* NGPaymentController.m */,
+				B36063CC1B1E0F400092F84A /* NGFrameSelectController.h */,
+				B36063CD1B1E0F400092F84A /* NGFrameSelectController.m */,
+				12D78F1F1B304B4100A8F122 /* NGInfoViewController.h */,
+				12D78F201B304B4100A8F122 /* NGInfoViewController.m */,
+				12D78F221B3056DD00A8F122 /* NGPrescriptionController.h */,
+				12D78F231B3056DD00A8F122 /* NGPrescriptionController.m */,
+				123A4EB91B380FEC00806C99 /* NGCartInfoController.h */,
+				123A4EBA1B380FEC00806C99 /* NGCartInfoController.m */,
+				12F5D02F1B2977050046626D /* NGChooseFrameController.h */,
+				12F5D0301B2977050046626D /* NGChooseFrameController.m */,
+				12F5D0321B298DC80046626D /* NGFramePresentationController.h */,
+				12F5D0331B298DC80046626D /* NGFramePresentationController.m */,
+				4230EAD31B3C42040071BC56 /* Glasses */,
+				4230EACB1B3BE2D20071BC56 /* Sunglasses */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B30136D01B1DF9430058ABC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B30136B81B1DF87E0058ABC4 /* LaunchScreen.xib */,
+				B30136B31B1DF87E0058ABC4 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B30136D11B1DF9870058ABC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12E233E11B4132F0000BC75B /* NGCart.h */,
+				12E233E21B4132F0000BC75B /* NGCart.m */,
+				420BF30E1B26F25900DFFC81 /* DropboxAPI.h */,
+				420BF30F1B26F25900DFFC81 /* DropboxAPI.m */,
+				B30136D21B1DF9B40058ABC4 /* NGDataManager.h */,
+				B30136D31B1DF9B40058ABC4 /* NGDataManager.m */,
+				B3904C2C1B1E1E8B00582412 /* NGCamera.h */,
+				B3904C2D1B1E1E8B00582412 /* NGCamera.m */,
+				128C14C31B25B27D00EBA386 /* NGSQLiteDataBaseManager.h */,
+				128C14C41B25B27D00EBA386 /* NGSQLiteDataBaseManager.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B36063CF1B1E10EE0092F84A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				128B67231B53F2C00072932A /* PDFCreater */,
+				B36063D01B1E11080092F84A /* NGCustomer.h */,
+				B36063D11B1E11080092F84A /* NGCustomer.m */,
+				12D2465F1B26D91700276AE7 /* NGFrame.h */,
+				12D246601B26D91700276AE7 /* NGFrame.m */,
+				12E287571B34487F007339A5 /* NGDoctorInfo.h */,
+				12E287581B34487F007339A5 /* NGDoctorInfo.m */,
+				12E233DE1B4130A3000BC75B /* NGItem.h */,
+				12E233DF1B4130A3000BC75B /* NGItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B3904C331B1E23F100582412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				128C14C61B25B69200EBA386 /* libsqlite3.dylib */,
+				B3904C341B1E242C00582412 /* DropboxSDK.framework */,
+				B3904C311B1E23ED00582412 /* QuartzCore.framework */,
+				B3904C2F1B1E23E700582412 /* Security.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B30136A51B1DF87E0058ABC4 /* NextGenerationSeller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30136C91B1DF87E0058ABC4 /* Build configuration list for PBXNativeTarget "NextGenerationSeller" */;
+			buildPhases = (
+				B30136A21B1DF87E0058ABC4 /* Sources */,
+				B30136A31B1DF87E0058ABC4 /* Frameworks */,
+				B30136A41B1DF87E0058ABC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextGenerationSeller;
+			productName = NGKioskApp;
+			productReference = B30136A61B1DF87E0058ABC4 /* NextGenerationSeller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B30136BE1B1DF87E0058ABC4 /* NextGenerationSellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30136CC1B1DF87E0058ABC4 /* Build configuration list for PBXNativeTarget "NextGenerationSellerTests" */;
+			buildPhases = (
+				B30136BB1B1DF87E0058ABC4 /* Sources */,
+				B30136BC1B1DF87E0058ABC4 /* Frameworks */,
+				B30136BD1B1DF87E0058ABC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30136C11B1DF87E0058ABC4 /* PBXTargetDependency */,
+			);
+			name = NextGenerationSellerTests;
+			productName = NGKioskAppTests;
+			productReference = B30136BF1B1DF87E0058ABC4 /* NextGenerationSeller.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B301369E1B1DF87E0058ABC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NG;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ACEP;
+				TargetAttributes = {
+					B30136A51B1DF87E0058ABC4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B30136BE1B1DF87E0058ABC4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B30136A51B1DF87E0058ABC4;
+					};
+				};
+			};
+			buildConfigurationList = B30136A11B1DF87E0058ABC4 /* Build configuration list for PBXProject "NextGenerationSeller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B301369D1B1DF87E0058ABC4;
+			productRefGroup = B30136A71B1DF87E0058ABC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B30136A51B1DF87E0058ABC4 /* NextGenerationSeller */,
+				B30136BE1B1DF87E0058ABC4 /* NextGenerationSellerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30136A41B1DF87E0058ABC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F3F36E1B4426190046460F /* framesImg0.jpg in Resources */,
+				125AB70B1BE0EC9F00BD68AF /* Localizible.strings in Resources */,
+				B30136B51B1DF87E0058ABC4 /* Main.storyboard in Resources */,
+				12ECBC1A1B4ADE3F00378CA3 /* framesInfo.sql in Resources */,
+				128B672B1B53F2EC0072932A /* index.html in Resources */,
+				12EA7E7F1B4D604200C6CC58 /* circleArrow.png in Resources */,
+				12EA7E811B4D65BA00C6CC58 /* splash.png in Resources */,
+				12EA7E7D1B4D602C00C6CC58 /* mailBtn.png in Resources */,
+				12F3F3701B4426190046460F /* framesImg2.jpg in Resources */,
+				12F3F36F1B4426190046460F /* framesImg1.jpg in Resources */,
+				12F3F3721B4426190046460F /* framesImg4.jpg in Resources */,
+				B30136BA1B1DF87E0058ABC4 /* LaunchScreen.xib in Resources */,
+				B30136B71B1DF87E0058ABC4 /* Images.xcassets in Resources */,
+				12F3F3711B4426190046460F /* framesImg3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30136BD1B1DF87E0058ABC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30136A21B1DF87E0058ABC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F5D0341B298DC80046626D /* NGFramePresentationController.m in Sources */,
+				128B671F1B53AADF0072932A /* NGPaymentController.m in Sources */,
+				12E233E01B4130A3000BC75B /* NGItem.m in Sources */,
+				4230EADA1B3C427E0071BC56 /* NGGlassesOptionsViewController.m in Sources */,
+				B30136D41B1DF9B40058ABC4 /* NGDataManager.m in Sources */,
+				12F5D0311B2977050046626D /* NGChooseFrameController.m in Sources */,
+				B30136B21B1DF87E0058ABC4 /* NGMainViewController.m in Sources */,
+				128B67291B53F2D90072932A /* RTTemplate.m in Sources */,
+				12E287591B34487F007339A5 /* NGDoctorInfo.m in Sources */,
+				B36063D21B1E11080092F84A /* NGCustomer.m in Sources */,
+				128B67221B53AC960072932A /* NGFinalOrderController.m in Sources */,
+				B3904C2E1B1E1E8B00582412 /* NGCamera.m in Sources */,
+				4230EAD71B3C425E0071BC56 /* NGGlassesTypeViewController.m in Sources */,
+				12D78F211B304B4100A8F122 /* NGInfoViewController.m in Sources */,
+				123A4EB81B37F68000806C99 /* NSString+NGCheckStrings.m in Sources */,
+				12774EB11BDE647200E26C86 /* NGHowItWorksScreenController.m in Sources */,
+				12D78F1D1B302D7600A8F122 /* UIImage+NGUIResizedImage.m in Sources */,
+				B30136AF1B1DF87E0058ABC4 /* AppDelegate.m in Sources */,
+				123A4EBB1B380FEC00806C99 /* NGCartInfoController.m in Sources */,
+				420DB6481B3AF4AA002C62A4 /* NGChooseTypeViewController.m in Sources */,
+				128B67281B53F2D90072932A /* RTPDFGenerator.m in Sources */,
+				12EE76411BE9E3960029D4CA /* nextGenDataModel.xcdatamodeld in Sources */,
+				12D78F171B30252C00A8F122 /* NGBrendCell.m in Sources */,
+				12E233E31B4132F0000BC75B /* NGCart.m in Sources */,
+				4230EACE1B3BE49F0071BC56 /* NGChooseOptionsViewController.m in Sources */,
+				B3904C2B1B1E1D5200582412 /* NGNavigationController.m in Sources */,
+				B36063CE1B1E0F400092F84A /* NGFrameSelectController.m in Sources */,
+				124D8E041BE24F4D00198D8D /* AnimView.m in Sources */,
+				420DB6451B3ADDAD002C62A4 /* NGChooseLensesViewController.m in Sources */,
+				12D246611B26D91700276AE7 /* NGFrame.m in Sources */,
+				B30136AC1B1DF87E0058ABC4 /* main.m in Sources */,
+				12E233DD1B41307F000BC75B /* NGPreorderCell.m in Sources */,
+				128C14C51B25B27D00EBA386 /* NGSQLiteDataBaseManager.m in Sources */,
+				420BF3101B26F25900DFFC81 /* DropboxAPI.m in Sources */,
+				12D78F241B3056DD00A8F122 /* NGPrescriptionController.m in Sources */,
+				12774EAE1BDE55C100E26C86 /* NGStartViewController.m in Sources */,
+				12FD26BC1B1F1B74009943EC /* NGPhotoCell.m in Sources */,
+				12774EB41BDFA04500E26C86 /* UIView+Effects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30136BB1B1DF87E0058ABC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30136C61B1DF87E0058ABC4 /* NGKioskAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B30136C11B1DF87E0058ABC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30136A51B1DF87E0058ABC4 /* NextGenerationSeller */;
+			targetProxy = B30136C01B1DF87E0058ABC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		125AB70D1BE0EC9F00BD68AF /* Localizible.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125AB70C1BE0EC9F00BD68AF /* Base */,
+				125AB70E1BE0ECA300BD68AF /* en */,
+			);
+			name = Localizible.strings;
+			sourceTree = "<group>";
+		};
+		B30136B31B1DF87E0058ABC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30136B41B1DF87E0058ABC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B30136B81B1DF87E0058ABC4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30136B91B1DF87E0058ABC4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B30136C71B1DF87E0058ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B30136C81B1DF87E0058ABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B30136CA1B1DF87E0058ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NGKioskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = NextGenerationSeller;
+			};
+			name = Debug;
+		};
+		B30136CB1B1DF87E0058ABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NGKioskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = NextGenerationSeller;
+			};
+			name = Release;
+		};
+		B30136CD1B1DF87E0058ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGKioskAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = NextGenerationSeller;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextGenerationSeller.app/NextGenerationSeller";
+			};
+			name = Debug;
+		};
+		B30136CE1B1DF87E0058ABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGKioskAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = NextGenerationSeller;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextGenerationSeller.app/NextGenerationSeller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30136A11B1DF87E0058ABC4 /* Build configuration list for PBXProject "NextGenerationSeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30136C71B1DF87E0058ABC4 /* Debug */,
+				B30136C81B1DF87E0058ABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30136C91B1DF87E0058ABC4 /* Build configuration list for PBXNativeTarget "NextGenerationSeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30136CA1B1DF87E0058ABC4 /* Debug */,
+				B30136CB1B1DF87E0058ABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30136CC1B1DF87E0058ABC4 /* Build configuration list for PBXNativeTarget "NextGenerationSellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30136CD1B1DF87E0058ABC4 /* Debug */,
+				B30136CE1B1DF87E0058ABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12EE763F1BE9E3960029D4CA /* nextGenDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12EE76401BE9E3960029D4CA /* nextGenDataModel.xcdatamodel */,
+			);
+			currentVersion = 12EE76401BE9E3960029D4CA /* nextGenDataModel.xcdatamodel */;
+			name = nextGenDataModel.xcdatamodeld;
+			path = ../nextGenDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B301369E1B1DF87E0058ABC4 /* Project object */;
+}

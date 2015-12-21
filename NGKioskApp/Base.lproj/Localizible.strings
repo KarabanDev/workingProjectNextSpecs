@@ -1,0 +1,36 @@
+/*
+ Localizable.strings
+ NGKioskApp
+ 
+ Created by Andrey Karaban on 28/10/15.
+ Copyright © 2015 ACEP. All rights reserved.
+ */
+
+//   -------------------------------------------------------------   How It Works View Controller   -------------------------------------------------------------   //
+"How it works"="How it works";
+"Explaination"="TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT textTEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text TEXT TEXT text";
+"FirstBulletpoint"="Some text for FirstBulletpoint";
+"SecondBulletpoint"="Some text for SecondBulletpoint";
+"ThirdBulletpoint"="Some text for ThirdBulletpoint";
+"Back Home"="Back Home";
+"Get Started"="Get Started";
+//   -------------------------------------------------------------   ---------------------------   -------------------------------------------------------------   //
+
+
+//   ----------------------------------------------------------------   Start View Controller   ----------------------------------------------------------------   //
+"mainScreenLabel"="Order stylish Prescription Eyewear in under 5 minutes";
+"Learn how it works"="Learn how it works";
+"Get Started"="Get Started";
+//   -------------------------------------------------------------   ---------------------------   -------------------------------------------------------------   //
+
+
+
+//   ----------------------------------------------------------------   Main View Controller   ----------------------------------------------------------------   //
+"Eye\nGlasses"="Eye\nGlasses";
+"Sun\nGlasses"="Sun\nGlasses";
+"Smart Mirror"="Smart Mirror";
+"Welcome"="Welcome";
+"Order prescription Eyeglasses in just 5 minutes"="Order prescription Eyeglasses in just 5 minutes";
+"What type of glasses do you like?"="What type of glasses do you like?";
+"See how you look in our fashion frames by using our"="See how you look in our fashion frames by using our";
+//   -------------------------------------------------------------   ---------------------------   -------------------------------------------------------------   //
